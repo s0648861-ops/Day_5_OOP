@@ -74,7 +74,7 @@ public class Changer extends javax.swing.JFrame {
 
                 String[] add = new String[3];
 
-                if (!textAreas[2].getText().matches("[0-9]")){
+                if (!textAreas[2].getText().matches("[0-9.]+")){
                     JOptionPane.showMessageDialog(null, "Avg grade must be number");
                     return;
                 }
